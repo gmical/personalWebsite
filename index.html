@@ -1,1 +1,122 @@
-<h1> TEST GITHUB </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1b96c6; /* blue */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Grayson Mical</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="aboutMe.html">ABOUT</a></li>
+        <li><a href="myProjects.html">PROJECTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="http://i67.tinypic.com/33a6otu.jpg" class="img-responsive img-circle margin" style="display:inline" alt="me" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+  <blockquote>
+    <p>If you wish to be a master chef, first take time to learn each ingredient.</p>
+    <footer style = "color: #ffffff">GM</footer>
+  </blockquote>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>All of my current passions stem from my inate love for all things Computer- drone development, game development, network security, Machine Learning, and web development are few of many in my list of interests connected to CS.</p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Find me Camping or Snowboarding in the vast lands of California</p>
+      <img src="http://i68.tinypic.com/10gei3t.jpg" class="img-responsive img-circle margin" style="display:inline" alt="snowJump">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Working or stuying at SFSU in persuit of my degree in CS with a minor in Mathematics 
+      	<br>(Expected Graduation date fall 2020)</p>
+      <img src="https://yt3.ggpht.com/a-/AAuE7mAzwYJhHHJhWuLMxPvTSWOF1HZnG4VwhWup=s900-mo-c-c0xffffffff-rj-k-no" class="img-responsive margin" style="width:100%" alt="SFSU">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Bay Area tech events!</p>
+      <img src="https://pbs.twimg.com/profile_images/966078355727466496/-bz06aJF_400x400.jpg" class="img-responsive margin" style="width:100%" alt="sfHACKS">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Thankyou for visiting <a href="graysonmical.com">www.graysonmical.com</a></p> 
+</footer>
+
+</body>
+</html>
